@@ -15,7 +15,7 @@ public class FirstApplication {
     @RequestMapping("/")
     String index(){
 
-        return "hello Spring Boot";
+        return "hello Spring Boot Change";
     }
     public static void main(String[] args) {
         SpringApplication.run(FirstApplication.class, args);
