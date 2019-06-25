@@ -15,7 +15,7 @@ public class FirstApplication {
     @RequestMapping("/")
     String index(){
 
-        return "hello Spring Boot Change" + "my name is YangBingWen";
+        return "hello Spring Boot Change" + "my name is YangBingWen and ssss";
     }
     public static void main(String[] args) {
         SpringApplication.run(FirstApplication.class, args);
