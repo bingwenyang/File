@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class FirstApplication {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/")
     String index(){
 
         return "hello Spring Boot";
